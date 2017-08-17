@@ -1,0 +1,334 @@
+@media only screen and (max-width: 1000px) {
+  .header {
+    padding-left: 30%; } }
+
+@media only screen and (max-width: 1300px) {
+  .header .blockSecond p {
+    display: none; } }
+
+@media only screen and (max-width: 600px) {
+  .header .blockSecond {
+    width: 80px;
+    height: 25px; } }
+
+@media only screen and (max-width: 800px) {
+  .dashboardBlock {
+    height: 26em; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  height: 100%; }
+
+#root {
+  min-height: 100%;
+  margin: auto;
+  position: relative; }
+
+.header {
+  width: 100%;
+  height: 80px;
+  background-color: #4a868c;
+  position: absolute;
+  top: 0;
+  padding-left: 314px; }
+  .header:after {
+    clear: both;
+    content: '';
+    display: block; }
+  .header .blockFirst {
+    float: left;
+    width: 70%; }
+    .header .blockFirst h2 {
+      color: #ffffff;
+      font-family: Lato;
+      font-size: 16px;
+      line-height: 5;
+      padding-left: 40px; }
+  .header .blockSecond {
+    float: right;
+    width: 30%; }
+    .header .blockSecond p {
+      color: #ffffff;
+      font-family: Lato;
+      font-size: 16px;
+      line-height: 5;
+      float: left; }
+    .header .blockSecond form {
+      width: 143px;
+      height: 29px;
+      box-shadow: 0 0 5px rgba(12, 6, 14, 0.1);
+      border-radius: 2px;
+      background-color: #ffffff;
+      float: left;
+      margin-top: 25px;
+      margin-left: 19px; }
+      .header .blockSecond form select {
+        border: 0;
+        padding-left: 20px;
+        padding-top: 5px; }
+        .header .blockSecond form select:active, .header .blockSecond form select:focus {
+          outline: none; }
+
+.sidebar {
+  width: 314px;
+  height: 100em;
+  background-color: #253340;
+  position: absolute;
+  top: 0;
+  z-index: 1; }
+  .sidebar .sibeBarIcon {
+    background-image: url("../images/layers.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 37px;
+    height: 37px;
+    position: absolute;
+    top: 25px;
+    right: -17px;
+    z-index: 3;
+    cursor: pointer; }
+  .sidebar .sidebarlogo {
+    height: 80px;
+    padding-left: 50px; }
+    .sidebar .sidebarlogo .sidebarlogoName {
+      width: 171px;
+      height: 32px;
+      line-height: 2;
+      font-family: Lato;
+      font-size: 37px;
+      font-weight: 400;
+      color: #ffffff; }
+      .sidebar .sidebarlogo .sidebarlogoName::first-letter {
+        color: #ed553c; }
+  .sidebar .userBlock {
+    width: 314px;
+    height: 142px;
+    line-height: 1.5;
+    padding-top: 40px;
+    padding-left: 30px;
+    background-color: #486e91;
+    background-image: linear-gradient(to top, rgba(241, 97, 146, 0.28) 0%, rgba(239, 98, 146, 0.28) 1%, rgba(78, 198, 127, 0.28) 100%); }
+    .sidebar .userBlock:after {
+      clear: both;
+      content: '';
+      display: block; }
+    .sidebar .userBlock .userLogo {
+      width: 65px;
+      height: 65px;
+      background-image: url("../images/your-image-here1.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      float: left;
+      padding-left: 28px; }
+    .sidebar .userBlock .userInfo {
+      padding-left: 21px;
+      float: left; }
+      .sidebar .userBlock .userInfo p {
+        width: 150px;
+        height: 15px;
+        color: #eaebec;
+        font-family: Lato;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+        padding-bottom: 30px; }
+  .sidebar .sidebarGeneral {
+    width: 314px;
+    height: 75px;
+    padding-left: 29px;
+    line-height: 3; }
+    .sidebar .sidebarGeneral h3 {
+      width: 91px;
+      height: 15px;
+      color: #ffffff;
+      font-family: Lato;
+      font-size: 20px;
+      font-weight: 700;
+      text-transform: uppercase; }
+  .sidebar .sidebarItem .sidebarItemList {
+    list-style-type: none; }
+    .sidebar .sidebarItem .sidebarItemList li {
+      width: 314px;
+      height: auto;
+      padding: 15px 0 20px 30px; }
+      .sidebar .sidebarItem .sidebarItemList li:after {
+        clear: both;
+        content: '';
+        display: block; }
+      .sidebar .sidebarItem .sidebarItemList li:hover {
+        background-color: #486e91; }
+      .sidebar .sidebarItem .sidebarItemList li link {
+        text-decoration: none; }
+      .sidebar .sidebarItem .sidebarItemList li .sidebarItemListName {
+        width: 67px;
+        height: 10px;
+        color: #ffffff;
+        font-family: Lato;
+        font-size: 18px;
+        font-weight: 400;
+        float: left;
+        padding-left: 20px; }
+      .sidebar .sidebarItem .sidebarItemList li img {
+        width: 34px;
+        height: 28px;
+        float: left; }
+      .sidebar .sidebarItem .sidebarItemList li .dashboardList {
+        padding-top: 40px;
+        padding-left: 21px;
+        width: 240px;
+        height: 245px;
+        list-style-type: none; }
+        .sidebar .sidebarItem .sidebarItemList li .dashboardList li {
+          width: 170px;
+          height: 17px;
+          font-size: 18px;
+          font-weight: 400;
+          margin-bottom: 20px; }
+          .sidebar .sidebarItem .sidebarItemList li .dashboardList li:hover {
+            color: #ffffff; }
+          .sidebar .sidebarItem .sidebarItemList li .dashboardList li Link {
+            color: #ffffff;
+            font-family: Lato;
+            font-weight: 400;
+            text-decoration: none; }
+          .sidebar .sidebarItem .sidebarItemList li .dashboardList li p {
+            color: #ffffff;
+            font-family: Lato;
+            font-weight: 400; }
+
+.container.toggle {
+  width: 115px;
+  height: 100em;
+  background-color: #253340;
+  position: absolute;
+  top: 0;
+  z-index: 1; }
+  .container.toggle .sibeBarIconToggle {
+    background-image: url("../images/menu-button.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 37px;
+    height: 37px;
+    position: absolute;
+    top: 25px;
+    right: -17px;
+    z-index: 3;
+    cursor: pointer; }
+  .container.toggle .sidebarlogo {
+    height: 80px;
+    padding-left: 42px;
+    padding-top: 5px; }
+    .container.toggle .sidebarlogo .sidebarlogoName {
+      width: 171px;
+      height: 32px;
+      line-height: 2;
+      font-family: Lato;
+      font-size: 37px;
+      font-weight: 400;
+      color: #ffffff; }
+      .container.toggle .sidebarlogo .sidebarlogoName::first-letter {
+        color: #ed553c; }
+  .container.toggle .userBlockToggle {
+    width: 115px;
+    height: 142px;
+    line-height: 1.5;
+    padding-top: 40px;
+    padding-left: 30px;
+    background-color: #486e91;
+    background-image: linear-gradient(to top, rgba(241, 97, 146, 0.28) 0%, rgba(239, 98, 146, 0.28) 1%, rgba(78, 198, 127, 0.28) 100%); }
+    .container.toggle .userBlockToggle .userLogo {
+      width: 65px;
+      height: 65px;
+      background-image: url("../images/your-image-here1.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      float: left;
+      padding-left: 28px; }
+    .container.toggle .userBlockToggle .userInfo {
+      display: none; }
+  .container.toggle .sidebarGeneralToggle {
+    display: none; }
+  .container.toggle .sidebarItemListToggle {
+    padding-top: 19px;
+    list-style-type: none; }
+    .container.toggle .sidebarItemListToggle li {
+      width: 100%;
+      height: auto;
+      padding: 15px 0 20px 39px; }
+      .container.toggle .sidebarItemListToggle li:after {
+        clear: both;
+        content: '';
+        display: block; }
+      .container.toggle .sidebarItemListToggle li:hover {
+        background-color: #486e91; }
+      .container.toggle .sidebarItemListToggle li link {
+        text-decoration: none; }
+      .container.toggle .sidebarItemListToggle li .sidebarItemListNameToggle {
+        display: none; }
+      .container.toggle .sidebarItemListToggle li img {
+        width: 34px;
+        height: 28px;
+        float: left; }
+      .container.toggle .sidebarItemListToggle li .dashboardList {
+        display: none; }
+
+.dashboardBlock {
+  position: absolute;
+  width: 80%;
+  height: 20em;
+  top: 110px;
+  left: 340px;
+  z-index: 3;
+  box-shadow: 1px 1px 0 rgba(68, 68, 68, 0.4);
+  border: 1px solid #eae0ee; }
+  .dashboardBlock h1 {
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 400;
+    color: #949393;
+    text-align: center; }
+  .dashboardBlock table {
+    width: 100%;
+    padding: 13px 15px 10px 30px; }
+    .dashboardBlock table .tdItem {
+      width: 117px;
+      height: 52px;
+      color: #777777;
+      font-size: 18px;
+      line-height: 29px;
+      text-transform: uppercase;
+      background-color: #f1f1f1;
+      font-family: Lato;
+      font-weight: bold; }
+      .dashboardBlock table .tdItem p {
+        padding-left: 20px; }
+      .dashboardBlock table .tdItem img {
+        float: right;
+        padding-right: 29px; }
+    .dashboardBlock table .tdItemList, .dashboardBlock table .tdItemListBlock {
+      width: 952px;
+      height: 11px;
+      color: #949393;
+      font-family: Lato;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 48px;
+      text-transform: uppercase; }
+    .dashboardBlock table .tdItemListBlock {
+      text-transform: lowercase;
+      font-size: 14px; }
+
+.layouts, .pages, .message {
+  position: absolute;
+  left: 50%;
+  margin: 0 auto;
+  top: 250px; }
+  .layouts h1, .pages h1, .message h1 {
+    font-family: Lato;
+    font-size: 45px;
+    font-weight: 400;
+    color: #949393; }
